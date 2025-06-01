@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.item.dto;
+package revz.project.restaurant.menu.item.dto;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Max;

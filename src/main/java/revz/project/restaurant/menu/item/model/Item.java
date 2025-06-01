@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.item.model;
+package revz.project.restaurant.menu.item.model;
 
 import java.time.Instant;
 import java.util.UUID;

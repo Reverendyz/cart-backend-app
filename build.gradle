@@ -6,7 +6,7 @@ plugins {
 
 }
 
-group = 'revz.project.restaurant.cart'
+group = 'revz.project.restaurant.menu'
 version = '0.0.1-SNAPSHOT'
 
 java {

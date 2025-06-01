@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.item.dao;
+package revz.project.restaurant.menu.item.dao;
 
 import java.time.Instant;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Repository;
 
-import revz.project.restaurant.cart.item.dto.CreateItemDTO;
-import revz.project.restaurant.cart.item.dto.UpdateItemDTO;
-import revz.project.restaurant.cart.item.model.Item;
-import revz.project.restaurant.cart.item.repository.ItemRepository;
+import revz.project.restaurant.menu.item.dto.CreateItemDTO;
+import revz.project.restaurant.menu.item.dto.UpdateItemDTO;
+import revz.project.restaurant.menu.item.model.Item;
+import revz.project.restaurant.menu.item.repository.ItemRepository;
 
 @Repository
 public class ItemDAO {

@@ -1,8 +1,7 @@
-package revz.project.restaurant.cart.item.services;
+package revz.project.restaurant.menu.item.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
@@ -18,9 +17,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import jakarta.validation.Validator;
-import revz.project.restaurant.cart.item.dao.ItemDAO;
-import revz.project.restaurant.cart.item.dto.CreateItemDTO;
-import revz.project.restaurant.cart.item.model.Item;
+import revz.project.restaurant.menu.item.dao.ItemDAO;
+import revz.project.restaurant.menu.item.dto.CreateItemDTO;
+import revz.project.restaurant.menu.item.model.Item;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest

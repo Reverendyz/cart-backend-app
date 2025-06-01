@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.item.services;
+package revz.project.restaurant.menu.item.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,10 +7,10 @@ import org.springframework.data.crossstore.ChangeSetPersister.NotFoundException;
 import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
-import revz.project.restaurant.cart.item.dao.ItemDAO;
-import revz.project.restaurant.cart.item.dto.CreateItemDTO;
-import revz.project.restaurant.cart.item.dto.UpdateItemDTO;
-import revz.project.restaurant.cart.item.model.Item;
+import revz.project.restaurant.menu.item.dao.ItemDAO;
+import revz.project.restaurant.menu.item.dto.CreateItemDTO;
+import revz.project.restaurant.menu.item.dto.UpdateItemDTO;
+import revz.project.restaurant.menu.item.model.Item;
 
 @Slf4j
 @Service

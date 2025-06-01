@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.config;
+package revz.project.restaurant.menu.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

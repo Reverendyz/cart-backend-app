@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.exception;
+package revz.project.restaurant.menu.exception;
 
 import jakarta.validation.ConstraintViolationException;
 

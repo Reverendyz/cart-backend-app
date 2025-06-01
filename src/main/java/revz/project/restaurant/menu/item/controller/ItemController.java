@@ -1,4 +1,4 @@
-package revz.project.restaurant.cart.item.controller;
+package revz.project.restaurant.menu.item.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.validation.Valid;
-import revz.project.restaurant.cart.item.dto.CreateItemDTO;
-import revz.project.restaurant.cart.item.dto.UpdateItemDTO;
-import revz.project.restaurant.cart.item.model.Item;
-import revz.project.restaurant.cart.item.services.ItemService;
+import revz.project.restaurant.menu.item.dto.CreateItemDTO;
+import revz.project.restaurant.menu.item.dto.UpdateItemDTO;
+import revz.project.restaurant.menu.item.model.Item;
+import revz.project.restaurant.menu.item.services.ItemService;
 
 @RestController
 @RequestMapping("/v1/item")
