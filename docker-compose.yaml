@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=S3cureP@ss
+      - MYSQL_DATABASE=db_example
+      - MYSQL_ROOT_PASSWORD=r0otP@ss
